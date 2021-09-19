@@ -1,0 +1,178 @@
+img{
+    max-width: 100%;
+}
+
+.main-menu img{
+    width: 100px;
+}
+
+.baner main{
+    background: #f9f9ff;
+    height: 610px;
+}
+.baner img{
+   width: 75%;
+}
+.baner article{
+    padding-top: 100px;
+}
+.baner button{
+    background: #8490ff;
+}
+.blog img{
+    border: 1px solid #ddd;
+}
+.blog article{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.blog button{
+    background: #8490ff;
+}
+
+.four-item{
+    background: #8490ff;
+    height: 200px;
+    color: white;
+}
+.four-item .leka{
+    padding-top: 70px;
+}
+.four-item .leka h1{
+    font-weight: 700;
+}
+
+/*pricing-table*/
+.pricing-table main{
+    background: #f9f9ff;
+    height: 650px;
+}
+
+.pricing-table .pri-item{
+    width: 355px;
+    height: 470px;
+    background: white;
+    position: relative;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.11);
+}
+.pri-item h2 {
+    text-align: center;
+    display: inline-block;
+   width: 100px;
+   margin-top: 10px;
+   height: 100px;
+   background: #f9f9ff;
+   border-radius: 50%;
+   line-height: 100px;
+   
+}
+.pri-item h5{}
+.pri-item p{}
+.pri-item ul{
+    list-style-type: none;
+}
+.pri-item ul li{
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -30px;
+    color:#919191;
+}
+.pri-item button{
+    color: #8490ff;
+    border-color: #8490ff;
+   font-weight: 600;
+   box-shadow: 0px 0px 30px #8490ff54;
+    
+}
+.pri-item button:hover{
+    background: #8490ff;
+    color: white;
+    border-color: #8490ff;
+}
+/*member-section*/
+.member-section{
+    padding: 50px 0;
+}
+.member-section .member_info{
+    position: relative;
+}
+.member-section .m_bio{
+    width: 265px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.192);
+}
+.member-section img{
+    width: 80px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 12px;
+}
+.member-section .m_bio button:hover{
+    background: #000;
+    color: white;
+    border-color: black; 
+}
+/*form-section*/
+.form-section{}
+.form-section main{
+    background: #f9f9ff;
+    padding: 50px 0;
+}
+
+
+/*form-section*/
+.form-section {}
+.form-section .form-iner{
+    background: #ffffff;
+   width: 650px;
+   height: 520px;
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.205);
+}
+.form-iner .w100{
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(199, 198, 198);
+
+}
+.form-iner .w50{
+    width: 39%;
+      margin-right: 1%;
+       margin-left: 1%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(199, 198, 198);
+    
+}
+ .form-iner textarea{
+      border-radius: 5px;
+      border: 2px solid rgb(199, 198, 198);
+      margin-bottom: 30px;
+ }
+  .form-iner button{
+    color: white;
+    font-weight: 600;
+    padding: 8px 12px;
+    background: #17a2b8;
+  }
+
+  /*address*/
+  address{
+      margin-left: 50px;
+      margin-top:60px ;
+  }
+  address li{
+      line-height: 40px;
+      font-size: 20px;
+      list-style-type: none;
+  }
+
+  footer{
+      background: #04091e;
+      color: white;
+      padding: 15px 0;
+     
+  }
